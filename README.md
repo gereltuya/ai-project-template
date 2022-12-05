@@ -5,7 +5,7 @@
  <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center">ai-project-template</h3>
 
 <div align="center">
 
@@ -16,12 +16,13 @@
 
 
 ## 🧐 About <a name = "about"></a>
-Write about 1-2 paragraphs describing the purpose of your project.
+
+AI project template
 
 ## 🔖 Project structure
 
 ```
-Project_folder/
+ai-project-template/
 |- bin/          # contains scripts and main files that should be run
 |- config/       # config files
 |- notebooks/    # notebooks for EDA and exploration
@@ -34,11 +35,16 @@ Project_folder/
 ## 🏁 Getting Started <a name = "getting_started"></a>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
-Setup your environement and install project dependencies
+### Clone the project
 ```
-conda create -n my_project python=3.10
-source activate my_project
+git clone https or ssh url to clone the project
+```
+
+## Setup your environement and install project dependencies
+```
+conda create -n ai-project-template python=3.10
+source activate ai-project-template
+
 
 python -m pip install pip-tools
 pip-compile --output-file requirements.txt requirements.in requirements_dev.in
@@ -74,3 +80,4 @@ make precommit
 ```
 
 ##  ✍️ Authors
+Gereltuya - hello at gereltuya dot com
